@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Quiz App</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<div id="container">
-<div id="start">Start Quiz!</div>
+  <head>
+    <title>Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="start">Take a Web Tech Quiz<button>Start Quiz!</button></div>
 
-<div id="quiz" style="display: none;">
-	<div id="question"></div>
-	<div id="qImg"></div>
-	<div id="choices">
-		<div class="choice" id="A" onclick="checkAnswer('A')"></div>
-		<div class="choice" id="B" onclick="checkAnswer('B')"></div>
-		<div class="choice" id="C" onclick="checkAnswer('C')"></div>
-<!-- 		<div class="choice" id="D" onclick="checkAnswer('D')"></div>
+      <div id="quiz" style="display: none;">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+          <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+          <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+          <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+          <!-- 		<div class="choice" id="D" onclick="checkAnswer('D')"></div>
  -->
-	</div>
-	<div id="timer">
-		<div id="counter"></div>
-		<div id="btimeGauge"></div>
-		<div id="timeGauge"></div>
-	</div>
-	<div id="progress"></div>
-</div>
+        </div>
+        <div id="timer">
+          <div id="counter"></div>
+          <div id="btimeGauge"></div>
+          <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+      </div>
 
-<div id="score" style="display: none;"></div>
-
-</div>
-<script type="text/javascript" src="app.js"></script>
-</body>
+      <div id="score" style="display: none;"></div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
 </html>

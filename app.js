@@ -1,4 +1,3 @@
-
 // select all elements
 const start = document.getElementById("start");
 const quiz = document.getElementById("quiz");
